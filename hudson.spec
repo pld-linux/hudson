@@ -47,7 +47,7 @@ Among those things, current Hudson focuses on the following two jobs:
 rm *.class
 rm winstone.jar
 
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
